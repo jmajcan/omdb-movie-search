@@ -15,7 +15,7 @@ export const SearchBar = () => {
 					placeholder='Search Movies'
 					onChange={(e) => handleSearch(e)}
 				/>
-				<button className='absolute right-1 top-1/2 -translate-y-1/2 p-1.5 bg-secondary rounded-full'>
+				<button className='absolute right-2 top-1/2 -translate-y-1/2 p-1.5 bg-dark rounded-full'>
 					<SearchIcon />
 				</button>
 			</div>
