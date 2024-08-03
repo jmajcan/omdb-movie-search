@@ -48,4 +48,4 @@ yarn start
 ```
 
 ## Connect with me
-
+[LinkedIn](https://www.linkedin.com/in/majcan/)
