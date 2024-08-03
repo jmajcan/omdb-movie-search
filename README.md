@@ -1,11 +1,16 @@
 # Table of Contents
+- [About](#about)
+- [Technologies used](#technologies)
+- [Features](#features)
+- [Getting Started](#getting-started)
+- [Connect with me](#connect-with-me)
 
 ## About
 
 This is an app that allows you to search OMDB for movies and select the movie to see the details of the selected movie.
 
 ## Preview
-
+https://github.com/user-attachments/assets/b0b1af85-dbc9-4ee8-8a55-f0bdc995fe83
 
 ## Technologies
 - ReactJS
@@ -42,5 +47,5 @@ yarn install
 yarn start
 ```
 
-## Contact me
+## Connect with me
 
