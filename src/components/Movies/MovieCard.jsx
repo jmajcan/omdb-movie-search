@@ -1,5 +1,6 @@
 import React from 'react';
-import { Link } from "react-router-dom";
+import { Link } from 'react-router-dom';
+import { Button } from '../Button';
 
 export const MovieCard = ({movie}) => {
 	const noMoviePoster = 'https://motivatevalmorgan.com/wp-content/uploads/2016/06/default-movie-768x1129.jpg';
@@ -21,12 +22,7 @@ export const MovieCard = ({movie}) => {
 			</div>
 			</Link>
 			<div className='pb-4'>
-				<button
-					className='bg-primary text-tertiary rounded-lg px-4 py-1 hover:bg-hover active:bg-clicked'
-					onClick={() => alert('Click on card to view movie info.')}
-				>
-					View
-				</button>
+				<Button label={'View More'} alertString={'This would view more details for the movie'}/>
 			</div>
 		</div>
 	);

@@ -12,6 +12,9 @@ module.exports = {
         tertiary: '#EEEEEE',
         dark: '#201E43',
         light: '#FCF7F7',
+        clicked: '#132E70',
+        hover: '#136870',
+        cardHover: '#CFF6ED',
       }
     },
   },

@@ -6,6 +6,7 @@ import {
 import { LoadingSpinner } from  '../LoadingSpinner';
 import { MovieCard } from './MovieCard';
 import { DropDownButton } from '../DropDownButton';
+import { Button } from '../Button';
 
 export const MovieList = ({movies}) => {
 	const isLoading = useSelector(getIsLoading);
@@ -22,6 +23,9 @@ export const MovieList = ({movies}) => {
 						{movies.map(
 							(movie, index) => <MovieCard key={`${movie.imdbID}.${index}`} movie={movie} />
 						)}
+						<div className='flex justify-center items-center pb-4'>
+							<Button label={'Load More'} alertString={'This would load more movies'} />
+						</div>
 					</div>
 				</div>
 			}
